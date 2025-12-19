@@ -12,7 +12,9 @@ function MessageCard({ isActive }) {
   const curtainRightRef = useRef(null);
   const curtainHintRef = useRef(null);
   const messageContentRef = useRef(null);
-
+  const recipientName = "Meenarva";
+  const senderName = "Koushik";
+  const message = `Your message here...`;
   const message = `[Recipient Name],
 
 Your personalized birthday message goes here.
